@@ -12,4 +12,7 @@ In Stack, main(), local variables,myCar, etc are stored. Once the method executi
 Eg: There is a Vehicle class which has 3 methods--> startEngine(), stopEngine(), accelerate(). Now there is a Driver class which takes Vehicle object as a parameter and uses accelerate() method which means Driver class is dependent on Vehicle class object to perform its drive operation.
 
 **Composition Association-**
+Eg: There is a Vehicle class which owns an Engine class. So if the Vehicle class ceases, then Engine class will also cease i.e. without Vehicle class, the Engine class object won't be working around. This type of association applies ownership so that means Vehicle class owns an Engine Object.
+
+**Aggregation Association-**
 
